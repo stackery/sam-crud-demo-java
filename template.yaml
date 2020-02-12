@@ -57,7 +57,7 @@ Resources:
         - ResourceName: getUser
       CodeUri: src/getUser
       Handler: Handler::handleRequest
-      Runtime: java8
+      Runtime: java11
       MemorySize: 3008
       Timeout: 30
       Tracing: Active
@@ -87,7 +87,7 @@ Resources:
         - ResourceName: updateUser
       CodeUri: src/updateUser
       Handler: Handler::handleRequest
-      Runtime: java8
+      Runtime: java11
       MemorySize: 3008
       Timeout: 30
       Tracing: Active
@@ -117,7 +117,7 @@ Resources:
         - ResourceName: createUser
       CodeUri: src/createUser
       Handler: Handler::handleRequest
-      Runtime: java8
+      Runtime: java11
       MemorySize: 3008
       Timeout: 30
       Tracing: Active
@@ -147,7 +147,7 @@ Resources:
         - ResourceName: deleteUser
       CodeUri: src/deleteUser
       Handler: Handler::handleRequest
-      Runtime: java8
+      Runtime: java11
       MemorySize: 3008
       Timeout: 30
       Tracing: Active
@@ -177,7 +177,7 @@ Resources:
         - ResourceName: listUsers
       CodeUri: src/listUsers
       Handler: Handler::handleRequest
-      Runtime: java8
+      Runtime: java11
       MemorySize: 3008
       Timeout: 30
       Tracing: Active
